@@ -1,0 +1,4 @@
+azure-storage-blob==12.16.0
+azure_identity==1.13.0
+Jinja2==3.1.2
+psutil==5.9.6

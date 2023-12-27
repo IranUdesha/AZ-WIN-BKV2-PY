@@ -1,0 +1,141 @@
+02-Nov-23 05:53:54, root INFO 
+02-Nov-23 05:53:54, root INFO ****** RMQ-WIN19-2023-11-02 Daily Backup ******
+02-Nov-23 05:53:54, root INFO There is no Yesterday backup in backups/
+02-Nov-23 05:53:54, root INFO File Compression is Started
+02-Nov-23 05:54:09, root INFO sql/QA_HRMv9.bak RAR Compression is Completed
+02-Nov-23 05:54:09, root INFO CompletedProcess(args=['C:/Program Files/WinRAR/Rar.exe', 'a', 'backups/RMQ-WIN19-QA_HRMv9-2023-11-02.rar', 'sql/QA_HRMv9.bak'], returncode=0, stdout=b"\r\nRAR 6.23 x64   Copyright (c) 1993-2023 Alexander Roshal   1 Aug 2023\r\nTrial version             Type 'rar -?' for help\r\n\r\nEvaluation copy. Please register.\r\n\r\nCreating archive backups/RMQ-WIN19-QA_HRMv9-2023-11-02.rar\r\n\r\nAdding    sql\\QA_HRMv9.bak                                               \x08\x08\x08\x08  1%\x08\x08\x08\x08  2%\x08\x08\x08\x08  4%\x08\x08\x08\x08  5%\x08\x08\x08\x08  6%\x08\x08\x08\x08  8%\x08\x08\x08\x08  9%\x08\x08\x08\x08 11%\x08\x08\x08\x08 12%\x08\x08\x08\x08 13%\x08\x08\x08\x08 15%\x08\x08\x08\x08 16%\x08\x08\x08\x08 17%\x08\x08\x08\x08 19%\x08\x08\x08\x08 20%\x08\x08\x08\x08 22%\x08\x08\x08\x08 23%\x08\x08\x08\x08 24%\x08\x08\x08\x08 26%\x08\x08\x08\x08 27%\x08\x08\x08\x08 29%\x08\x08\x08\x08 30%\x08\x08\x08\x08 31%\x08\x08\x08\x08 33%\x08\x08\x08\x08 34%\x08\x08\x08\x08 35%\x08\x08\x08\x08 37%\x08\x08\x08\x08 38%\x08\x08\x08\x08 40%\x08\x08\x08\x08 41%\x08\x08\x08\x08 42%\x08\x08\x08\x08 44%\x08\x08\x08\x08 45%\x08\x08\x08\x08 47%\x08\x08\x08\x08 48%\x08\x08\x08\x08 49%\x08\x08\x08\x08 51%\x08\x08\x08\x08 52%\x08\x08\x08\x08 53%\x08\x08\x08\x08 55%\x08\x08\x08\x08 56%\x08\x08\x08\x08 58%\x08\x08\x08\x08 59%\x08\x08\x08\x08 60%\x08\x08\x08\x08 62%\x08\x08\x08\x08 63%\x08\x08\x08\x08 65%\x08\x08\x08\x08 66%\x08\x08\x08\x08 67%\x08\x08\x08\x08 69%\x08\x08\x08\x08 70%\x08\x08\x08\x08 71%\x08\x08\x08\x08 73%\x08\x08\x08\x08 74%\x08\x08\x08\x08 76%\x08\x08\x08\x08 77%\x08\x08\x08\x08 78%\x08\x08\x08\x08 80%\x08\x08\x08\x08 81%\x08\x08\x08\x08 82%\x08\x08\x08\x08 84%\x08\x08\x08\x08 85%\x08\x08\x08\x08 87%\x08\x08\x08\x08 88%\x08\x08\x08\x08 89%\x08\x08\x08\x08 91%\x08\x08\x08\x08 92%\x08\x08\x08\x08 94%\x08\x08\x08\x08 95%\x08\x08\x08\x08 96%\x08\x08\x08\x08 98%\x08\x08\x08\x08 99%\x08\x08\x08\x08100%\x08\x08\x08\x08\x08  OK \r\nDone\r\n", stderr=b'')
+NoneType: None
+02-Nov-23 05:54:21, root INFO sql/QA_HRMv9_2.bak RAR Compression is Completed
+02-Nov-23 05:54:21, root INFO CompletedProcess(args=['C:/Program Files/WinRAR/Rar.exe', 'a', 'backups/RMQ-WIN19-QA_HRMv9_2-2023-11-02.rar', 'sql/QA_HRMv9_2.bak'], returncode=0, stdout=b"\r\nRAR 6.23 x64   Copyright (c) 1993-2023 Alexander Roshal   1 Aug 2023\r\nTrial version             Type 'rar -?' for help\r\n\r\nEvaluation copy. Please register.\r\n\r\nCreating archive backups/RMQ-WIN19-QA_HRMv9_2-2023-11-02.rar\r\n\r\nAdding    sql\\QA_HRMv9_2.bak                                             \x08\x08\x08\x08  1%\x08\x08\x08\x08  2%\x08\x08\x08\x08  4%\x08\x08\x08\x08  5%\x08\x08\x08\x08  6%\x08\x08\x08\x08  8%\x08\x08\x08\x08  9%\x08\x08\x08\x08 11%\x08\x08\x08\x08 12%\x08\x08\x08\x08 13%\x08\x08\x08\x08 15%\x08\x08\x08\x08 16%\x08\x08\x08\x08 17%\x08\x08\x08\x08 19%\x08\x08\x08\x08 20%\x08\x08\x08\x08 22%\x08\x08\x08\x08 23%\x08\x08\x08\x08 24%\x08\x08\x08\x08 26%\x08\x08\x08\x08 27%\x08\x08\x08\x08 29%\x08\x08\x08\x08 30%\x08\x08\x08\x08 31%\x08\x08\x08\x08 33%\x08\x08\x08\x08 34%\x08\x08\x08\x08 35%\x08\x08\x08\x08 37%\x08\x08\x08\x08 38%\x08\x08\x08\x08 40%\x08\x08\x08\x08 41%\x08\x08\x08\x08 42%\x08\x08\x08\x08 44%\x08\x08\x08\x08 45%\x08\x08\x08\x08 47%\x08\x08\x08\x08 48%\x08\x08\x08\x08 49%\x08\x08\x08\x08 51%\x08\x08\x08\x08 52%\x08\x08\x08\x08 53%\x08\x08\x08\x08 55%\x08\x08\x08\x08 56%\x08\x08\x08\x08 58%\x08\x08\x08\x08 59%\x08\x08\x08\x08 60%\x08\x08\x08\x08 62%\x08\x08\x08\x08 63%\x08\x08\x08\x08 65%\x08\x08\x08\x08 66%\x08\x08\x08\x08 67%\x08\x08\x08\x08 69%\x08\x08\x08\x08 70%\x08\x08\x08\x08 71%\x08\x08\x08\x08 73%\x08\x08\x08\x08 74%\x08\x08\x08\x08 76%\x08\x08\x08\x08 77%\x08\x08\x08\x08 78%\x08\x08\x08\x08 80%\x08\x08\x08\x08 81%\x08\x08\x08\x08 82%\x08\x08\x08\x08 84%\x08\x08\x08\x08 85%\x08\x08\x08\x08 87%\x08\x08\x08\x08 88%\x08\x08\x08\x08 89%\x08\x08\x08\x08 91%\x08\x08\x08\x08 92%\x08\x08\x08\x08 94%\x08\x08\x08\x08 95%\x08\x08\x08\x08 96%\x08\x08\x08\x08 98%\x08\x08\x08\x08 99%\x08\x08\x08\x08100%\x08\x08\x08\x08\x08  OK \r\nDone\r\n", stderr=b'')
+NoneType: None
+02-Nov-23 05:54:21, azure.core.pipeline.policies.http_logging_policy INFO Request URL: 'https://sts01db01sqlbak.blob.core.windows.net/daily/RMQ-WIN19/2023-11-02/RMQ-WIN19-QA_HRMv9-2023-11-02.rar'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '13615682'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.16.0 Python/3.12.0 (Windows-2019Server-10.0.17763-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4501f67a-7944-11ee-8162-6045bd58080a'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+02-Nov-23 05:54:21, urllib3.connectionpool DEBUG Starting new HTTPS connection (1): sts01db01sqlbak.blob.core.windows.net:443
+02-Nov-23 05:54:24, urllib3.connectionpool DEBUG https://sts01db01sqlbak.blob.core.windows.net:443 "PUT /daily/RMQ-WIN19/2023-11-02/RMQ-WIN19-QA_HRMv9-2023-11-02.rar HTTP/1.1" 201 0
+02-Nov-23 05:54:24, azure.core.pipeline.policies.http_logging_policy INFO Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Thu, 02 Nov 2023 05:54:24 GMT'
+    'ETag': '"0x8DBDB682B187FBF"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '45744ba2-d01e-0062-7651-0d7044000000'
+    'x-ms-client-request-id': '4501f67a-7944-11ee-8162-6045bd58080a'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Thu, 02 Nov 2023 05:54:24 GMT'
+02-Nov-23 05:54:24, root INFO Upload is Completed
+02-Nov-23 05:54:24, azure.core.pipeline.policies.http_logging_policy INFO Request URL: 'https://sts01db01sqlbak.blob.core.windows.net/daily/RMQ-WIN19/2023-11-02/RMQ-WIN19-QA_HRMv9_2-2023-11-02.rar'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '13601017'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.16.0 Python/3.12.0 (Windows-2019Server-10.0.17763-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '46e86eaf-7944-11ee-8b2b-6045bd58080a'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+02-Nov-23 05:54:24, urllib3.connectionpool DEBUG Starting new HTTPS connection (1): sts01db01sqlbak.blob.core.windows.net:443
+02-Nov-23 05:54:26, urllib3.connectionpool DEBUG https://sts01db01sqlbak.blob.core.windows.net:443 "PUT /daily/RMQ-WIN19/2023-11-02/RMQ-WIN19-QA_HRMv9_2-2023-11-02.rar HTTP/1.1" 201 0
+02-Nov-23 05:54:26, azure.core.pipeline.policies.http_logging_policy INFO Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Thu, 02 Nov 2023 05:54:26 GMT'
+    'ETag': '"0x8DBDB682BD6AAB1"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '48061036-701e-0064-3951-0d873c000000'
+    'x-ms-client-request-id': '46e86eaf-7944-11ee-8b2b-6045bd58080a'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Thu, 02 Nov 2023 05:54:25 GMT'
+02-Nov-23 05:54:26, root INFO Upload is Completed
+02-Nov-23 05:54:28, root INFO Email is sent to iran.u@hsenidbiz.com
+02-Nov-23 06:04:39, root INFO 
+02-Nov-23 06:04:39, root INFO ****** RMQ-WIN19-2023-11-02 Daily Backup ******
+02-Nov-23 06:04:39, root INFO DB-Name= RMQ-WIN19-QA_HRMv9-2023-11-02, DB-Size= 12.985 MB
+02-Nov-23 06:04:39, root INFO DB-Name= RMQ-WIN19-QA_HRMv9_2-2023-11-02, DB-Size= 12.971 MB
+02-Nov-23 06:04:39, root INFO  backups/RMQ-WIN19-QA_HRMv9-2023-11-02.rar is deleted...!
+02-Nov-23 06:04:39, root INFO  backups/RMQ-WIN19-QA_HRMv9_2-2023-11-02.rar is deleted...!
+02-Nov-23 06:04:39, root INFO File Compression is Started
+02-Nov-23 06:04:56, root INFO sql/QA_HRMv9.bak RAR Compression is Completed
+02-Nov-23 06:04:56, root INFO CompletedProcess(args=['C:/Program Files/WinRAR/Rar.exe', 'a', 'backups/RMQ-WIN19-QA_HRMv9-2023-11-02.rar', 'sql/QA_HRMv9.bak'], returncode=0, stdout=b"\r\nRAR 6.23 x64   Copyright (c) 1993-2023 Alexander Roshal   1 Aug 2023\r\nTrial version             Type 'rar -?' for help\r\n\r\nEvaluation copy. Please register.\r\n\r\nCreating archive backups/RMQ-WIN19-QA_HRMv9-2023-11-02.rar\r\n\r\nAdding    sql\\QA_HRMv9.bak                                               \x08\x08\x08\x08  1%\x08\x08\x08\x08  2%\x08\x08\x08\x08  4%\x08\x08\x08\x08  5%\x08\x08\x08\x08  6%\x08\x08\x08\x08  8%\x08\x08\x08\x08  9%\x08\x08\x08\x08 11%\x08\x08\x08\x08 12%\x08\x08\x08\x08 13%\x08\x08\x08\x08 15%\x08\x08\x08\x08 16%\x08\x08\x08\x08 17%\x08\x08\x08\x08 19%\x08\x08\x08\x08 20%\x08\x08\x08\x08 22%\x08\x08\x08\x08 23%\x08\x08\x08\x08 24%\x08\x08\x08\x08 26%\x08\x08\x08\x08 27%\x08\x08\x08\x08 29%\x08\x08\x08\x08 30%\x08\x08\x08\x08 31%\x08\x08\x08\x08 33%\x08\x08\x08\x08 34%\x08\x08\x08\x08 35%\x08\x08\x08\x08 37%\x08\x08\x08\x08 38%\x08\x08\x08\x08 40%\x08\x08\x08\x08 41%\x08\x08\x08\x08 42%\x08\x08\x08\x08 44%\x08\x08\x08\x08 45%\x08\x08\x08\x08 47%\x08\x08\x08\x08 48%\x08\x08\x08\x08 49%\x08\x08\x08\x08 51%\x08\x08\x08\x08 52%\x08\x08\x08\x08 53%\x08\x08\x08\x08 55%\x08\x08\x08\x08 56%\x08\x08\x08\x08 58%\x08\x08\x08\x08 59%\x08\x08\x08\x08 60%\x08\x08\x08\x08 62%\x08\x08\x08\x08 63%\x08\x08\x08\x08 65%\x08\x08\x08\x08 66%\x08\x08\x08\x08 67%\x08\x08\x08\x08 69%\x08\x08\x08\x08 70%\x08\x08\x08\x08 71%\x08\x08\x08\x08 73%\x08\x08\x08\x08 74%\x08\x08\x08\x08 76%\x08\x08\x08\x08 77%\x08\x08\x08\x08 78%\x08\x08\x08\x08 80%\x08\x08\x08\x08 81%\x08\x08\x08\x08 82%\x08\x08\x08\x08 84%\x08\x08\x08\x08 85%\x08\x08\x08\x08 87%\x08\x08\x08\x08 88%\x08\x08\x08\x08 89%\x08\x08\x08\x08 91%\x08\x08\x08\x08 92%\x08\x08\x08\x08 94%\x08\x08\x08\x08 95%\x08\x08\x08\x08 96%\x08\x08\x08\x08 98%\x08\x08\x08\x08 99%\x08\x08\x08\x08100%\x08\x08\x08\x08\x08  OK \r\nDone\r\n", stderr=b'')
+NoneType: None
+02-Nov-23 06:05:09, root INFO sql/QA_HRMv9_2.bak RAR Compression is Completed
+02-Nov-23 06:05:09, root INFO CompletedProcess(args=['C:/Program Files/WinRAR/Rar.exe', 'a', 'backups/RMQ-WIN19-QA_HRMv9_2-2023-11-02.rar', 'sql/QA_HRMv9_2.bak'], returncode=0, stdout=b"\r\nRAR 6.23 x64   Copyright (c) 1993-2023 Alexander Roshal   1 Aug 2023\r\nTrial version             Type 'rar -?' for help\r\n\r\nEvaluation copy. Please register.\r\n\r\nCreating archive backups/RMQ-WIN19-QA_HRMv9_2-2023-11-02.rar\r\n\r\nAdding    sql\\QA_HRMv9_2.bak                                             \x08\x08\x08\x08  1%\x08\x08\x08\x08  2%\x08\x08\x08\x08  4%\x08\x08\x08\x08  5%\x08\x08\x08\x08  6%\x08\x08\x08\x08  8%\x08\x08\x08\x08  9%\x08\x08\x08\x08 11%\x08\x08\x08\x08 12%\x08\x08\x08\x08 13%\x08\x08\x08\x08 15%\x08\x08\x08\x08 16%\x08\x08\x08\x08 17%\x08\x08\x08\x08 19%\x08\x08\x08\x08 20%\x08\x08\x08\x08 22%\x08\x08\x08\x08 23%\x08\x08\x08\x08 24%\x08\x08\x08\x08 26%\x08\x08\x08\x08 27%\x08\x08\x08\x08 29%\x08\x08\x08\x08 30%\x08\x08\x08\x08 31%\x08\x08\x08\x08 33%\x08\x08\x08\x08 34%\x08\x08\x08\x08 35%\x08\x08\x08\x08 37%\x08\x08\x08\x08 38%\x08\x08\x08\x08 40%\x08\x08\x08\x08 41%\x08\x08\x08\x08 42%\x08\x08\x08\x08 44%\x08\x08\x08\x08 45%\x08\x08\x08\x08 47%\x08\x08\x08\x08 48%\x08\x08\x08\x08 49%\x08\x08\x08\x08 51%\x08\x08\x08\x08 52%\x08\x08\x08\x08 53%\x08\x08\x08\x08 55%\x08\x08\x08\x08 56%\x08\x08\x08\x08 58%\x08\x08\x08\x08 59%\x08\x08\x08\x08 60%\x08\x08\x08\x08 62%\x08\x08\x08\x08 63%\x08\x08\x08\x08 65%\x08\x08\x08\x08 66%\x08\x08\x08\x08 67%\x08\x08\x08\x08 69%\x08\x08\x08\x08 70%\x08\x08\x08\x08 71%\x08\x08\x08\x08 73%\x08\x08\x08\x08 74%\x08\x08\x08\x08 76%\x08\x08\x08\x08 77%\x08\x08\x08\x08 78%\x08\x08\x08\x08 80%\x08\x08\x08\x08 81%\x08\x08\x08\x08 82%\x08\x08\x08\x08 84%\x08\x08\x08\x08 85%\x08\x08\x08\x08 87%\x08\x08\x08\x08 88%\x08\x08\x08\x08 89%\x08\x08\x08\x08 91%\x08\x08\x08\x08 92%\x08\x08\x08\x08 94%\x08\x08\x08\x08 95%\x08\x08\x08\x08 96%\x08\x08\x08\x08 98%\x08\x08\x08\x08 99%\x08\x08\x08\x08100%\x08\x08\x08\x08\x08  OK \r\nDone\r\n", stderr=b'')
+NoneType: None
+02-Nov-23 06:05:09, azure.core.pipeline.policies.http_logging_policy INFO Request URL: 'https://sts01db01sqlbak.blob.core.windows.net/daily/RMQ-WIN19/2023-11-02/RMQ-WIN19-QA_HRMv9-2023-11-02.rar'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '13615682'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.16.0 Python/3.12.0 (Windows-2019Server-10.0.17763-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'c70d9635-7945-11ee-9aca-6045bd58080a'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+02-Nov-23 06:05:09, urllib3.connectionpool DEBUG Starting new HTTPS connection (1): sts01db01sqlbak.blob.core.windows.net:443
+02-Nov-23 06:05:10, urllib3.connectionpool DEBUG https://sts01db01sqlbak.blob.core.windows.net:443 "PUT /daily/RMQ-WIN19/2023-11-02/RMQ-WIN19-QA_HRMv9-2023-11-02.rar HTTP/1.1" 201 0
+02-Nov-23 06:05:10, azure.core.pipeline.policies.http_logging_policy INFO Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Thu, 02 Nov 2023 06:05:10 GMT'
+    'ETag': '"0x8DBDB69AC07043B"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'fa04b293-601e-0016-3b52-0df602000000'
+    'x-ms-client-request-id': 'c70d9635-7945-11ee-9aca-6045bd58080a'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Thu, 02 Nov 2023 06:05:10 GMT'
+02-Nov-23 06:05:10, root INFO Upload is Completed
+02-Nov-23 06:05:10, azure.core.pipeline.policies.http_logging_policy INFO Request URL: 'https://sts01db01sqlbak.blob.core.windows.net/daily/RMQ-WIN19/2023-11-02/RMQ-WIN19-QA_HRMv9_2-2023-11-02.rar'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '13601017'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.16.0 Python/3.12.0 (Windows-2019Server-10.0.17763-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'c7d64e83-7945-11ee-a46c-6045bd58080a'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+02-Nov-23 06:05:10, urllib3.connectionpool DEBUG Starting new HTTPS connection (1): sts01db01sqlbak.blob.core.windows.net:443
+02-Nov-23 06:05:11, urllib3.connectionpool DEBUG https://sts01db01sqlbak.blob.core.windows.net:443 "PUT /daily/RMQ-WIN19/2023-11-02/RMQ-WIN19-QA_HRMv9_2-2023-11-02.rar HTTP/1.1" 201 0
+02-Nov-23 06:05:11, azure.core.pipeline.policies.http_logging_policy INFO Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Thu, 02 Nov 2023 06:05:11 GMT'
+    'ETag': '"0x8DBDB69ACBC2FD0"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'ccf309f6-801e-0035-2a52-0d99c9000000'
+    'x-ms-client-request-id': 'c7d64e83-7945-11ee-a46c-6045bd58080a'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Thu, 02 Nov 2023 06:05:11 GMT'
+02-Nov-23 06:05:11, root INFO Upload is Completed
+02-Nov-23 06:05:14, root INFO Email is sent to iran.u@hsenidbiz.com
