@@ -9,9 +9,9 @@ This Python Script Contain code for Compress folder contain and Upload it to Azu
 
 
 # Fill The Following before Run This Script
-</br>server_name = "<Server Name>"
+server_name = "<Server Name>"
 
-</br>smtp_server = "<SMTP Server>"
+smtp_server = "<SMTP Server>"
 </br>smtp_port = "<SMTP Port>"
 </br>smtp_un = "<SMTP Username>"
 </br>smtp_pw = "<SMTP Password>"
